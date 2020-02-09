@@ -5,7 +5,6 @@ from bs4 import BeautifulSoup as BSoup
 from django.views.generic import ListView
 from news.models import News
 
-User.objects.all()
 
 def scrape(request):
     session = requests.Session()
@@ -15,7 +14,6 @@ def scrape(request):
     soup = BSoup(content, "html.parser")
     news = soup.find_all('div', {'class': 'news-list__item news-list__item--show-thumb-bp30'})
 
-    data = []
     for article in news:
         title = article.find('a', {'class': 'news-list__headline-link'}).string
         description = article.find('p', {'class': 'news-list__snippet'}).string
@@ -24,9 +22,9 @@ def scrape(request):
         tag = article.find('a', {'class': 'label__tag'}).string
         date = article.find('span', {'class': 'label__timestamp'}).string
 
-        News.objects.get_or_create(News(title=title, description=description, image=image, url=url, tag=tag, date=date))
+        News.objects.get_or_create(title=title, description=description, image=image, url=url, tag=tag, date=date)
 
-    return render(request, 'news/home.html', {'data': data})
+    return redirect('../')
 
 
 class ListNews(ListView):
