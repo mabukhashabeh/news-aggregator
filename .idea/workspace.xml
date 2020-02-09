@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1756ee12-5d1f-47eb-a5da-82ee8eb1bca3" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="db" type="feb32156:DbDataSourceImpl" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1XNPKXiYOx6d1zeuDKjymQ0fXfA" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../sanad-web-app" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.standard" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.standard" value="" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/news" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1756ee12-5d1f-47eb-a5da-82ee8eb1bca3" name="Default Changelist" comment="" />
+      <created>1580883515060</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1580883515060</updated>
+      <workItem from="1580883516775" duration="3630000" />
+      <workItem from="1580932818048" duration="8246000" />
+      <workItem from="1581089136889" duration="21408000" />
+      <workItem from="1581174487500" duration="3263000" />
+      <workItem from="1581187792656" duration="6499000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="450" y="210" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1581233291902">
+      <screen x="65" y="27" width="1855" height="1053" />
+    </state>
+    <state x="450" y="210" key="#com.intellij.execution.impl.EditConfigurationsDialog/65.27.1855.1053@65.27.1855.1053" timestamp="1581233291902" />
+    <state x="765" y="310" width="424" height="484" key="FileChooserDialogImpl" timestamp="1581177150362">
+      <screen x="65" y="27" width="1855" height="1053" />
+    </state>
+    <state x="765" y="310" width="424" height="484" key="FileChooserDialogImpl/65.27.1855.1053@65.27.1855.1053" timestamp="1581177150362" />
+    <state width="263" height="541" key="HiddenNamespacesPopup" timestamp="1581163856325">
+      <screen x="65" y="27" width="1855" height="1053" />
+    </state>
+    <state width="263" height="541" key="HiddenNamespacesPopup/65.27.1855.1053@65.27.1855.1053" timestamp="1581163856325" />
+    <state x="481" y="187" key="SettingsEditor" timestamp="1581171882860">
+      <screen x="65" y="27" width="1855" height="1053" />
+    </state>
+    <state x="481" y="187" key="SettingsEditor/65.27.1855.1053@65.27.1855.1053" timestamp="1581171882860" />
+    <state x="165" y="125" width="1655" height="855" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1581194580300">
+      <screen x="65" y="27" width="1855" height="1053" />
+    </state>
+    <state x="165" y="125" width="1655" height="855" key="com.intellij.history.integration.ui.views.FileHistoryDialog/65.27.1855.1053@65.27.1855.1053" timestamp="1581194580300" />
+    <state x="558" y="158" width="859" height="789" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1581164392523">
+      <screen x="65" y="27" width="1855" height="1053" />
+    </state>
+    <state x="558" y="158" width="859" height="789" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/65.27.1855.1053@65.27.1855.1053" timestamp="1581164392523" />
+    <state x="655" y="257" width="672" height="678" key="search.everywhere.popup" timestamp="1581155711841">
+      <screen x="65" y="27" width="1855" height="1053" />
+    </state>
+    <state x="655" y="257" width="672" height="678" key="search.everywhere.popup/65.27.1855.1053@65.27.1855.1053" timestamp="1581155711841" />
+  </component>
+</project>
