@@ -2,15 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1756ee12-5d1f-47eb-a5da-82ee8eb1bca3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/js/jquery-3.4.1.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/NewsAggregator.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/NewsAggregator.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/news/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/news/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/news/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/news/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/news/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/news/home.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -48,6 +46,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1XNPKXiYOx6d1zeuDKjymQ0fXfA" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -100,18 +99,18 @@
       <screen x="65" y="27" width="1855" height="1053" />
     </state>
     <state x="450" y="210" key="#com.intellij.execution.impl.EditConfigurationsDialog/65.27.1855.1053@65.27.1855.1053" timestamp="1581233291902" />
-    <state x="765" y="310" width="424" height="484" key="FileChooserDialogImpl" timestamp="1581177150362">
+    <state x="765" y="310" width="424" height="484" key="FileChooserDialogImpl" timestamp="1581456354161">
       <screen x="65" y="27" width="1855" height="1053" />
     </state>
-    <state x="765" y="310" width="424" height="484" key="FileChooserDialogImpl/65.27.1855.1053@65.27.1855.1053" timestamp="1581177150362" />
+    <state x="765" y="310" width="424" height="484" key="FileChooserDialogImpl/65.27.1855.1053@65.27.1855.1053" timestamp="1581456354161" />
     <state width="263" height="541" key="HiddenNamespacesPopup" timestamp="1581163856325">
       <screen x="65" y="27" width="1855" height="1053" />
     </state>
     <state width="263" height="541" key="HiddenNamespacesPopup/65.27.1855.1053@65.27.1855.1053" timestamp="1581163856325" />
-    <state x="481" y="187" key="SettingsEditor" timestamp="1581171882860">
+    <state x="481" y="187" key="SettingsEditor" timestamp="1581456364713">
       <screen x="65" y="27" width="1855" height="1053" />
     </state>
-    <state x="481" y="187" key="SettingsEditor/65.27.1855.1053@65.27.1855.1053" timestamp="1581171882860" />
+    <state x="481" y="187" key="SettingsEditor/65.27.1855.1053@65.27.1855.1053" timestamp="1581456364713" />
     <state x="165" y="125" width="1655" height="855" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1581194580300">
       <screen x="65" y="27" width="1855" height="1053" />
     </state>
@@ -120,10 +119,10 @@
       <screen x="65" y="27" width="1855" height="1053" />
     </state>
     <state x="558" y="158" width="859" height="789" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/65.27.1855.1053@65.27.1855.1053" timestamp="1581164392523" />
-    <state x="656" y="257" width="672" height="678" key="search.everywhere.popup" timestamp="1581238816821">
-      <screen x="67" y="27" width="1853" height="1053" />
+    <state x="655" y="257" width="672" height="678" key="search.everywhere.popup" timestamp="1581456269826">
+      <screen x="65" y="27" width="1855" height="1053" />
     </state>
     <state x="656" y="257" width="672" height="678" key="search.everywhere.popup/1920.0.1920.1080/67.27.1853.1053@67.27.1853.1053" timestamp="1581238816821" />
-    <state x="655" y="257" width="672" height="678" key="search.everywhere.popup/65.27.1855.1053@65.27.1855.1053" timestamp="1581155711841" />
+    <state x="655" y="257" width="672" height="678" key="search.everywhere.popup/65.27.1855.1053@65.27.1855.1053" timestamp="1581456269826" />
   </component>
 </project>

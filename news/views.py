@@ -4,6 +4,7 @@ from django.shortcuts import render, redirect
 from bs4 import BeautifulSoup as BSoup
 from django.views.generic import ListView
 from news.models import News
+import dateutil.parser
 
 
 def scrape(request):
@@ -22,7 +23,8 @@ def scrape(request):
         tag = article.find('a', {'class': 'label__tag'}).string
         date = article.find('span', {'class': 'label__timestamp'}).string
 
-        News.objects.get_or_create(title=title, description=description, image=image, url=url, tag=tag, date=date)
+        News.objects.update_or_create(title=title, description=description, image=image, url=url, tag=tag,
+                                   date=dateutil.parser.parse(date))
 
     return redirect('../')
 

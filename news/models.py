@@ -7,7 +7,7 @@ class News(models.Model):
     description = models.TextField()
     image = models.URLField(null=True, blank=True)
     url = models.TextField(null=True)
-    date = models.CharField(max_length=200)
+    date = models.DateTimeField(null=True)
     tag = models.CharField(max_length=200)
 
     def __str__(self):
