@@ -32,4 +32,9 @@ def scrape(request):
 class ListNews(ListView):
     template_name = 'news/home.html'
     model = News
-    paginate_by = 25
+    paginate_by = 9
+    ordering = '-date'
+
+
+
+
