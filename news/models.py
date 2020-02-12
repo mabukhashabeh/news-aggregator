@@ -4,7 +4,7 @@ from django.conf import Settings
 
 class News(models.Model):
     title = models.CharField(max_length=200)
-    description = models.TextField()
+    description = models.TextField(null=True)
     image = models.URLField(null=True, blank=True)
     url = models.TextField(null=True)
     date = models.DateTimeField(null=True)
@@ -12,3 +12,5 @@ class News(models.Model):
 
     def __str__(self):
         return self.title
+
+

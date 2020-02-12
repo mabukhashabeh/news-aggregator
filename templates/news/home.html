@@ -15,49 +15,37 @@
     <div class="text-center m-5">
         <a class="btn btn-success my-3 rounded-pill" href="{% url 'scrape' %}">Fetching Latest News</a>
     </div>
-{% if messages %}
-    <ul class="messages">
-        {% for message in messages %}
-        <li
-                {% if message.tags %} class="{{ message.tags }}" {% endif %}>{{ message }}
-        </li>
-        {% endfor %}
-    </ul>
+    {% if messages %}
+    {% for message in messages %}
+    <div class="alert alert-{{ message.tags }}"> {{ message }}</div>
+    {% endfor %}
     {% endif %}
     <div class="row justify-content-center">
         {% for news in object_list %}
-        <div class="card  mb-3 mx-4"
-             style="max-width: 18rem;">
-            <div class="card-header"><a href="{{ news.url }}" target="_blank">{{ news.title }}</a></div>
-            <img class="card-img-top" src="{{ news.image }}}" alt="{{ news.title }}">
-            <div class="card-body text-primary">
-                <h5 class="card-title">{{ news.description }}</h5>
+        <div class="media my-1 bg-light p-3" style="width: 1000px">
+            <div class="media-body">
+                <h5 class="mt-0 mb-1"><a href="{{ news.url }}" target="_blank">{{ news.title }}</a></h5>
+                {{ news.description|default:'Description Unavailable'}}
+                <p class="text-muted">{{ news.date }}</p>
             </div>
-            <div class="card-footer bg-transparent border-light text-muted">{{ news.date }}</div>
+            <img src="{{ news.image }}" class="ml-3" alt="..." height="100" width="100">
         </div>
         {% endfor %}
-
     </div>
-    <div class="pagination">
-    <span class="step-links">
-        {% if page_obj.has_previous %}
-            <a href="?page=1">&laquo; first</a>
-            <a href="?page={{ page_obj.previous_page_number }}">previous</a>
-        {% endif %}
+    <nav aria-label="Page navigation example my-5">
+        <ul class="pagination">
+            {% if page_obj.has_previous %}
+            <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+            {% endif %}
 
-        <span class="current">
-            Page {{ page_obj.number }} of {{ page_obj.paginator.num_pages }}.
-        </span>
-
-        {% if page_obj.has_next %}
-            <a href="?page={{ page_obj.next_page_number }}">next</a>
-            <a href="?page={{ page_obj.paginator.num_pages }}">last &raquo;</a>
-        {% endif %}
-    </span>
+            {% if page_obj.has_next %}
+            <li class="page-item"><a class="page-link" href="#">Next</a></li>
+            {% endif %}
+        </ul>
+    </nav>
 </div>
-</div>
-
 <script src="{% static 'js/jquery-3.4.1.min.js' %}"></script>
 <script src="{% static 'js/bootstrap.min.js' %}"></script>
+<script src="{% static 'js/custom.js' %}"></script>
 </body>
 </html>

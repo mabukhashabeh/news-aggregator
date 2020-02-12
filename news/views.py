@@ -1,5 +1,6 @@
 import requests
 from django.contrib.auth.models import User
+from django.contrib import messages
 from django.shortcuts import render, redirect
 from bs4 import BeautifulSoup as BSoup
 from django.views.generic import ListView
@@ -15,6 +16,8 @@ def scrape(request):
     soup = BSoup(content, "html.parser")
     news = soup.find_all('div', {'class': 'news-list__item news-list__item--show-thumb-bp30'})
 
+    pre_count = News.objects.latest('id').id
+
     for article in news:
         title = article.find('a', {'class': 'news-list__headline-link'}).string
         description = article.find('p', {'class': 'news-list__snippet'}).string
@@ -25,6 +28,14 @@ def scrape(request):
 
         News.objects.update_or_create(title=title, description=description, image=image, url=url, tag=tag,
                                    date=dateutil.parser.parse(date))
+
+
+    if 0:
+        messages.add_message(request, messages.SUCCESS, 'You Have %s unread news' %count)
+
+    else:
+        messages.add_message(request, messages.WARNING  , "You haven't unread news")
+
 
     return redirect('../')
 
